@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A65637833C8C14B504FAC01 /* Pods_GlucoPredMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558515F4029F50B8D528FB37 /* Pods_GlucoPredMobile.framework */; };
+		7CAC2816DD621435871E67C4 /* Pods_GlucoPredMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BB82B0331164E315850A99 /* Pods_GlucoPredMobileUITests.framework */; };
+		F600621420FCBD31000A7313 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F600621020FCBB95000A7313 /* Charts.framework */; };
+		F600625E20FF3267000A7313 /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600625D20FF3267000A7313 /* AddMealViewController.swift */; };
+		F600628621008A72000A7313 /* PersistentTimeMealVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600628521008A72000A7313 /* PersistentTimeMealVar.swift */; };
+		F600628A2100C47D000A7313 /* PersistentTimeVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60062892100C47D000A7313 /* PersistentTimeVar.swift */; };
+		F60062932100D241000A7313 /* AddInsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60062922100D241000A7313 /* AddInsViewController.swift */; };
+		F600629E2101FAFD000A7313 /* ChooseMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600629D2101FAFD000A7313 /* ChooseMealViewController.swift */; };
+		F60062A02101FB11000A7313 /* ChooseInsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600629F2101FB11000A7313 /* ChooseInsViewController.swift */; };
+		F60062A42105BC82000A7313 /* PersistentSimResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60062A32105BC82000A7313 /* PersistentSimResult.swift */; };
+		F60062A62105C177000A7313 /* SavedProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60062A52105C177000A7313 /* SavedProfilesViewController.swift */; };
+		F60062A82105C5BB000A7313 /* ShowSavedProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60062A72105C5BB000A7313 /* ShowSavedProfileViewController.swift */; };
+		F60062AB21060826000A7313 /* TimeVarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60062AA21060826000A7313 /* TimeVarTableViewCell.swift */; };
+		F601409521072B1600AD95E7 /* TimeVarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F601409421072B1600AD95E7 /* TimeVarTableViewCell.xib */; };
+		F601409821074AE200AD95E7 /* Date+getTimeFormatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601409721074AE200AD95E7 /* Date+getTimeFormatted.swift */; };
+		F601409A21075EED00AD95E7 /* ChooseExerciseViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601409921075EED00AD95E7 /* ChooseExerciseViewControllerTableViewController.swift */; };
+		F601409E21085AB900AD95E7 /* TimeExVarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F601409D21085AB900AD95E7 /* TimeExVarTableViewCell.xib */; };
+		F60140A221085F8C00AD95E7 /* TimeExVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60140A121085F8C00AD95E7 /* TimeExVar.swift */; };
+		F60140A62108673A00AD95E7 /* TimeExVarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60140A52108673900AD95E7 /* TimeExVarTableViewCell.swift */; };
+		F60140A821099C4500AD95E7 /* ParameterComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60140A721099C4500AD95E7 /* ParameterComputer.swift */; };
+		F60140A92109C69500AD95E7 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F600621020FCBB95000A7313 /* Charts.framework */; };
+		F60140AA2109C69500AD95E7 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F600621020FCBB95000A7313 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F60140AE2109DBDC00AD95E7 /* String+doubleValueDecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60140AD2109DBDC00AD95E7 /* String+doubleValueDecimalSeparator.swift */; };
+		F60140B1210A0C2F00AD95E7 /* UIView+pinEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60140B0210A0C2F00AD95E7 /* UIView+pinEdges.swift */; };
+		F61F2DB02122BA3C00999601 /* GlucoPredMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F2DAF2122BA3C00999601 /* GlucoPredMobileTests.swift */; };
+		F62D2FAC211848E00045EB09 /* LineChartData+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62D2FAB211848E00045EB09 /* LineChartData+extensions.swift */; };
+		F6721BF92110742800C5F378 /* SimulationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6721BF82110742800C5F378 /* SimulationResult.swift */; };
+		F6721BFB21108FF600C5F378 /* PersistentTimeExVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6721BFA21108FF600C5F378 /* PersistentTimeExVar.swift */; };
+		F6721BFD2111A2EE00C5F378 /* PersistentActivityId.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6721BFC2111A2EE00C5F378 /* PersistentActivityId.swift */; };
+		F6721C0121133F0700C5F378 /* UIViewController+defaultAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6721C0021133F0700C5F378 /* UIViewController+defaultAlert.swift */; };
+		F67DAD4C2122C468009940CF /* SimplexOpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBE4C2211C4B72003A6DB3 /* SimplexOpt.swift */; };
+		F6CAEEE420EE0FB0001DFBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEEE320EE0FB0001DFBF0 /* AppDelegate.swift */; };
+		F6CAEEE920EE0FB0001DFBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CAEEE720EE0FB0001DFBF0 /* Main.storyboard */; };
+		F6CAEEEB20EE0FB5001DFBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CAEEEA20EE0FB5001DFBF0 /* Assets.xcassets */; };
+		F6CAEEEE20EE0FB5001DFBF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CAEEEC20EE0FB5001DFBF0 /* LaunchScreen.storyboard */; };
+		F6CAEF0420EE0FB5001DFBF0 /* GlucoPredMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF0320EE0FB5001DFBF0 /* GlucoPredMobileUITests.swift */; };
+		F6CAEF3420EE2F7F001DFBF0 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF3320EE2F7F001DFBF0 /* GraphViewController.swift */; };
+		F6CAEF5D20EE4352001DFBF0 /* MMParameterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5520EE4351001DFBF0 /* MMParameterSet.swift */; };
+		F6CAEF5E20EE4352001DFBF0 /* TimeVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5620EE4351001DFBF0 /* TimeVar.swift */; };
+		F6CAEF5F20EE4352001DFBF0 /* StateVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5720EE4351001DFBF0 /* StateVariable.swift */; };
+		F6CAEF6020EE4352001DFBF0 /* MMExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5820EE4351001DFBF0 /* MMExperiment.swift */; };
+		F6CAEF6120EE4352001DFBF0 /* MMParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5920EE4351001DFBF0 /* MMParameter.swift */; };
+		F6CAEF6220EE4352001DFBF0 /* TimeMealVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5A20EE4351001DFBF0 /* TimeMealVar.swift */; };
+		F6CAEF6320EE4352001DFBF0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5B20EE4351001DFBF0 /* Person.swift */; };
+		F6CAEF6420EE4352001DFBF0 /* InitialState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF5C20EE4351001DFBF0 /* InitialState.swift */; };
+		F6CAEF6A20EE4377001DFBF0 /* GlucoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF6620EE4377001DFBF0 /* GlucoseModel.swift */; };
+		F6CAEF6B20EE4377001DFBF0 /* DynamicMetabolismModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF6720EE4377001DFBF0 /* DynamicMetabolismModel.swift */; };
+		F6CAEF6C20EE4377001DFBF0 /* DynamicSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF6820EE4377001DFBF0 /* DynamicSystem.swift */; };
+		F6CAEF6D20EE4377001DFBF0 /* MMSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF6920EE4377001DFBF0 /* MMSimulator.swift */; };
+		F6CAEF7720EE439B001DFBF0 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF6F20EE439A001DFBF0 /* MathUtils.swift */; };
+		F6CAEF7820EE439B001DFBF0 /* QRDecomposistion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7020EE439A001DFBF0 /* QRDecomposistion.swift */; };
+		F6CAEF7920EE439B001DFBF0 /* RecursiveLSestimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7120EE439A001DFBF0 /* RecursiveLSestimation.swift */; };
+		F6CAEF7A20EE439B001DFBF0 /* DoubleVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7220EE439B001DFBF0 /* DoubleVector.swift */; };
+		F6CAEF7B20EE439B001DFBF0 /* LUDecomposistion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7320EE439B001DFBF0 /* LUDecomposistion.swift */; };
+		F6CAEF7C20EE439B001DFBF0 /* StringVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7420EE439B001DFBF0 /* StringVector.swift */; };
+		F6CAEF7D20EE439B001DFBF0 /* IntVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7520EE439B001DFBF0 /* IntVector.swift */; };
+		F6CAEF7E20EE439B001DFBF0 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7620EE439B001DFBF0 /* Matrix.swift */; };
+		F6CAEF8120EE43BC001DFBF0 /* ParamInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF7F20EE43BB001DFBF0 /* ParamInit.swift */; };
+		F6CAEF8220EE43BC001DFBF0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAEF8020EE43BC001DFBF0 /* Constants.swift */; };
+		F6CBE4A9211994EA003A6DB3 /* ParameterSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBE4A8211994EA003A6DB3 /* ParameterSettingsViewController.swift */; };
+		F6CBE4B32119A73F003A6DB3 /* PersistentParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBE4B22119A73F003A6DB3 /* PersistentParameter.swift */; };
+		F6CBE4B92119C07A003A6DB3 /* SavedActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBE4B82119C07A003A6DB3 /* SavedActivitiesViewController.swift */; };
+		F6CBE4BB2119C33A003A6DB3 /* SavedMealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBE4BA2119C33A003A6DB3 /* SavedMealsViewController.swift */; };
+		F6CBE4BD2119C369003A6DB3 /* SavedInsDosesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBE4BC2119C369003A6DB3 /* SavedInsDosesViewController.swift */; };
+		F6CBE4C1211C40C0003A6DB3 /* ParameterEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBE4C0211C40C0003A6DB3 /* ParameterEstimator.swift */; };
+		F6E013DB20EF7AC700CDE962 /* ChartXAxisFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E013DA20EF7AC700CDE962 /* ChartXAxisFormatter.swift */; };
+		F6E013E120EF980400CDE962 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E013E020EF980400CDE962 /* MainMenuViewController.swift */; };
+		F6E013E420EFA2DF00CDE962 /* ProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E013E320EFA2DF00CDE962 /* ProfileSettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F600620F20FCBB95000A7313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600620A20FCBB94000A7313 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		F600621120FCBB95000A7313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600620A20FCBB94000A7313 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		F600627121007CE3000A7313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600626721007CE3000A7313 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60CEF7DB23CD60F7F22D2F20F36A842C;
+			remoteInfo = "Pods-GlucoPredMobile";
+		};
+		F600627321007CE3000A7313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600626721007CE3000A7313 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7FBDF61F0B1F8A2CC3460F4D2746BE9;
+			remoteInfo = "Pods-GlucoPredMobileTests";
+		};
+		F600627521007CE3000A7313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600626721007CE3000A7313 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7915C90DFE0A94D629F649856C516EDF;
+			remoteInfo = "Pods-GlucoPredMobileUITests";
+		};
+		F600627721007CE3000A7313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600626721007CE3000A7313 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C5FCDB4D5F953944223AD42A14379F5;
+			remoteInfo = Realm;
+		};
+		F600627921007CE3000A7313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600626721007CE3000A7313 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B6EEED0321FD76153E64ACCD4F3A05CA;
+			remoteInfo = RealmSwift;
+		};
+		F60140AB2109C69500AD95E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600620A20FCBB94000A7313 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+		F61F2DB22122BA3C00999601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CAEED820EE0FB0001DFBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CAEEDF20EE0FB0001DFBF0;
+			remoteInfo = GlucoPredMobile;
+		};
+		F6CAEF0020EE0FB5001DFBF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CAEED820EE0FB0001DFBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CAEEDF20EE0FB0001DFBF0;
+			remoteInfo = GlucoPredMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6CAEF2F20EE1ABE001DFBF0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F60140AA2109C69500AD95E7 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DDAB4105BF571DC66EADECA /* Pods-GlucoPredMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucoPredMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlucoPredMobileTests/Pods-GlucoPredMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4328773068057FDFD829CED9 /* Pods-GlucoPredMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucoPredMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlucoPredMobile/Pods-GlucoPredMobile.release.xcconfig"; sourceTree = "<group>"; };
+		43BB82B0331164E315850A99 /* Pods_GlucoPredMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlucoPredMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4537EE053BD2C5D02ADEFD12 /* Pods-GlucoPredMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucoPredMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlucoPredMobile/Pods-GlucoPredMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		558515F4029F50B8D528FB37 /* Pods_GlucoPredMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlucoPredMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C440A43163623F0721798BF /* Pods_GlucoPredMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlucoPredMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA55AC04785DD6FFA457FFE /* Pods-GlucoPredMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucoPredMobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlucoPredMobileUITests/Pods-GlucoPredMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A51AADD6177CD8FC9C1E8833 /* Pods-GlucoPredMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucoPredMobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlucoPredMobileUITests/Pods-GlucoPredMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9BA1AE59C5743258AA4831C /* Pods-GlucoPredMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucoPredMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlucoPredMobileTests/Pods-GlucoPredMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		F600620A20FCBB94000A7313 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		F600625D20FF3267000A7313 /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
+		F600626721007CE3000A7313 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		F600628521008A72000A7313 /* PersistentTimeMealVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentTimeMealVar.swift; sourceTree = "<group>"; };
+		F60062892100C47D000A7313 /* PersistentTimeVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentTimeVar.swift; sourceTree = "<group>"; };
+		F60062922100D241000A7313 /* AddInsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInsViewController.swift; sourceTree = "<group>"; };
+		F600629D2101FAFD000A7313 /* ChooseMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMealViewController.swift; sourceTree = "<group>"; };
+		F600629F2101FB11000A7313 /* ChooseInsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseInsViewController.swift; sourceTree = "<group>"; };
+		F60062A32105BC82000A7313 /* PersistentSimResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentSimResult.swift; sourceTree = "<group>"; };
+		F60062A52105C177000A7313 /* SavedProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedProfilesViewController.swift; sourceTree = "<group>"; };
+		F60062A72105C5BB000A7313 /* ShowSavedProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSavedProfileViewController.swift; sourceTree = "<group>"; };
+		F60062AA21060826000A7313 /* TimeVarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVarTableViewCell.swift; sourceTree = "<group>"; };
+		F601409421072B1600AD95E7 /* TimeVarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeVarTableViewCell.xib; sourceTree = "<group>"; };
+		F601409721074AE200AD95E7 /* Date+getTimeFormatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+getTimeFormatted.swift"; sourceTree = "<group>"; };
+		F601409921075EED00AD95E7 /* ChooseExerciseViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseExerciseViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		F601409D21085AB900AD95E7 /* TimeExVarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeExVarTableViewCell.xib; sourceTree = "<group>"; };
+		F60140A121085F8C00AD95E7 /* TimeExVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeExVar.swift; sourceTree = "<group>"; };
+		F60140A52108673900AD95E7 /* TimeExVarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeExVarTableViewCell.swift; sourceTree = "<group>"; };
+		F60140A721099C4500AD95E7 /* ParameterComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterComputer.swift; sourceTree = "<group>"; };
+		F60140AD2109DBDC00AD95E7 /* String+doubleValueDecimalSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+doubleValueDecimalSeparator.swift"; sourceTree = "<group>"; };
+		F60140B0210A0C2F00AD95E7 /* UIView+pinEdges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+pinEdges.swift"; sourceTree = "<group>"; };
+		F61F2DAD2122BA3C00999601 /* GlucoPredMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoPredMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61F2DAF2122BA3C00999601 /* GlucoPredMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoPredMobileTests.swift; sourceTree = "<group>"; };
+		F61F2DB12122BA3C00999601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F62D2FAB211848E00045EB09 /* LineChartData+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineChartData+extensions.swift"; sourceTree = "<group>"; };
+		F6721BF82110742800C5F378 /* SimulationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResult.swift; sourceTree = "<group>"; };
+		F6721BFA21108FF600C5F378 /* PersistentTimeExVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentTimeExVar.swift; sourceTree = "<group>"; };
+		F6721BFC2111A2EE00C5F378 /* PersistentActivityId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentActivityId.swift; sourceTree = "<group>"; };
+		F6721C0021133F0700C5F378 /* UIViewController+defaultAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+defaultAlert.swift"; sourceTree = "<group>"; };
+		F6CAEEE020EE0FB0001DFBF0 /* GlucoPredMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoPredMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CAEEE320EE0FB0001DFBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6CAEEE820EE0FB0001DFBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6CAEEEA20EE0FB5001DFBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6CAEEED20EE0FB5001DFBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6CAEEEF20EE0FB5001DFBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CAEEF820EE0FB5001DFBF0 /* GlucoPredMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoPredMobileTests.swift; sourceTree = "<group>"; };
+		F6CAEEFA20EE0FB5001DFBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CAEEFF20EE0FB5001DFBF0 /* GlucoPredMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoPredMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CAEF0320EE0FB5001DFBF0 /* GlucoPredMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoPredMobileUITests.swift; sourceTree = "<group>"; };
+		F6CAEF0520EE0FB5001DFBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CAEF3320EE2F7F001DFBF0 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		F6CAEF5520EE4351001DFBF0 /* MMParameterSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMParameterSet.swift; sourceTree = "<group>"; };
+		F6CAEF5620EE4351001DFBF0 /* TimeVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeVar.swift; sourceTree = "<group>"; };
+		F6CAEF5720EE4351001DFBF0 /* StateVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateVariable.swift; sourceTree = "<group>"; };
+		F6CAEF5820EE4351001DFBF0 /* MMExperiment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMExperiment.swift; sourceTree = "<group>"; };
+		F6CAEF5920EE4351001DFBF0 /* MMParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMParameter.swift; sourceTree = "<group>"; };
+		F6CAEF5A20EE4351001DFBF0 /* TimeMealVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeMealVar.swift; sourceTree = "<group>"; };
+		F6CAEF5B20EE4351001DFBF0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F6CAEF5C20EE4351001DFBF0 /* InitialState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialState.swift; sourceTree = "<group>"; };
+		F6CAEF6620EE4377001DFBF0 /* GlucoseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlucoseModel.swift; sourceTree = "<group>"; };
+		F6CAEF6720EE4377001DFBF0 /* DynamicMetabolismModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicMetabolismModel.swift; sourceTree = "<group>"; };
+		F6CAEF6820EE4377001DFBF0 /* DynamicSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicSystem.swift; sourceTree = "<group>"; };
+		F6CAEF6920EE4377001DFBF0 /* MMSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSimulator.swift; sourceTree = "<group>"; };
+		F6CAEF6F20EE439A001DFBF0 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
+		F6CAEF7020EE439A001DFBF0 /* QRDecomposistion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRDecomposistion.swift; sourceTree = "<group>"; };
+		F6CAEF7120EE439A001DFBF0 /* RecursiveLSestimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecursiveLSestimation.swift; sourceTree = "<group>"; };
+		F6CAEF7220EE439B001DFBF0 /* DoubleVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleVector.swift; sourceTree = "<group>"; };
+		F6CAEF7320EE439B001DFBF0 /* LUDecomposistion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUDecomposistion.swift; sourceTree = "<group>"; };
+		F6CAEF7420EE439B001DFBF0 /* StringVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringVector.swift; sourceTree = "<group>"; };
+		F6CAEF7520EE439B001DFBF0 /* IntVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntVector.swift; sourceTree = "<group>"; };
+		F6CAEF7620EE439B001DFBF0 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		F6CAEF7F20EE43BB001DFBF0 /* ParamInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamInit.swift; sourceTree = "<group>"; };
+		F6CAEF8020EE43BC001DFBF0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F6CBE4A8211994EA003A6DB3 /* ParameterSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterSettingsViewController.swift; sourceTree = "<group>"; };
+		F6CBE4B22119A73F003A6DB3 /* PersistentParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentParameter.swift; sourceTree = "<group>"; };
+		F6CBE4B82119C07A003A6DB3 /* SavedActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedActivitiesViewController.swift; sourceTree = "<group>"; };
+		F6CBE4BA2119C33A003A6DB3 /* SavedMealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMealsViewController.swift; sourceTree = "<group>"; };
+		F6CBE4BC2119C369003A6DB3 /* SavedInsDosesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedInsDosesViewController.swift; sourceTree = "<group>"; };
+		F6CBE4C0211C40C0003A6DB3 /* ParameterEstimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEstimator.swift; sourceTree = "<group>"; };
+		F6CBE4C2211C4B72003A6DB3 /* SimplexOpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplexOpt.swift; sourceTree = "<group>"; };
+		F6E013DA20EF7AC700CDE962 /* ChartXAxisFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartXAxisFormatter.swift; sourceTree = "<group>"; };
+		F6E013E020EF980400CDE962 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		F6E013E320EFA2DF00CDE962 /* ProfileSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F61F2DAA2122BA3C00999601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAEEDD20EE0FB0001DFBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60140A92109C69500AD95E7 /* Charts.framework in Frameworks */,
+				F600621420FCBD31000A7313 /* Charts.framework in Frameworks */,
+				3A65637833C8C14B504FAC01 /* Pods_GlucoPredMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAEEFC20EE0FB5001DFBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAC2816DD621435871E67C4 /* Pods_GlucoPredMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1C58F976BF38D2FB86633D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F600626721007CE3000A7313 /* Pods.xcodeproj */,
+				4537EE053BD2C5D02ADEFD12 /* Pods-GlucoPredMobile.debug.xcconfig */,
+				4328773068057FDFD829CED9 /* Pods-GlucoPredMobile.release.xcconfig */,
+				0DDAB4105BF571DC66EADECA /* Pods-GlucoPredMobileTests.debug.xcconfig */,
+				C9BA1AE59C5743258AA4831C /* Pods-GlucoPredMobileTests.release.xcconfig */,
+				9CA55AC04785DD6FFA457FFE /* Pods-GlucoPredMobileUITests.debug.xcconfig */,
+				A51AADD6177CD8FC9C1E8833 /* Pods-GlucoPredMobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F600620B20FCBB94000A7313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F600621020FCBB95000A7313 /* Charts.framework */,
+				F600621220FCBB95000A7313 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F600621320FCBD31000A7313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558515F4029F50B8D528FB37 /* Pods_GlucoPredMobile.framework */,
+				5C440A43163623F0721798BF /* Pods_GlucoPredMobileTests.framework */,
+				43BB82B0331164E315850A99 /* Pods_GlucoPredMobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F600626821007CE3000A7313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F600627221007CE3000A7313 /* Pods_GlucoPredMobile.framework */,
+				F600627421007CE3000A7313 /* Pods_GlucoPredMobileTests.framework */,
+				F600627621007CE3000A7313 /* Pods_GlucoPredMobileUITests.framework */,
+				F600627821007CE3000A7313 /* Realm.framework */,
+				F600627A21007CE3000A7313 /* RealmSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F600628421008A1C000A7313 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F60140A121085F8C00AD95E7 /* TimeExVar.swift */,
+				F60062892100C47D000A7313 /* PersistentTimeVar.swift */,
+				F600628521008A72000A7313 /* PersistentTimeMealVar.swift */,
+				F6721BFA21108FF600C5F378 /* PersistentTimeExVar.swift */,
+				F60062A32105BC82000A7313 /* PersistentSimResult.swift */,
+				F6721BFC2111A2EE00C5F378 /* PersistentActivityId.swift */,
+				F6CBE4B22119A73F003A6DB3 /* PersistentParameter.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F60062A9210607F7000A7313 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F60140A52108673900AD95E7 /* TimeExVarTableViewCell.swift */,
+				F60062AA21060826000A7313 /* TimeVarTableViewCell.swift */,
+				F601409421072B1600AD95E7 /* TimeVarTableViewCell.xib */,
+				F601409D21085AB900AD95E7 /* TimeExVarTableViewCell.xib */,
+				F6CBE4B82119C07A003A6DB3 /* SavedActivitiesViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F601409621074ABB00AD95E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F601409721074AE200AD95E7 /* Date+getTimeFormatted.swift */,
+				F60140AD2109DBDC00AD95E7 /* String+doubleValueDecimalSeparator.swift */,
+				F60140B0210A0C2F00AD95E7 /* UIView+pinEdges.swift */,
+				F6721C0021133F0700C5F378 /* UIViewController+defaultAlert.swift */,
+				F62D2FAB211848E00045EB09 /* LineChartData+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F61F2DAE2122BA3C00999601 /* GlucoPredMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F61F2DAF2122BA3C00999601 /* GlucoPredMobileTests.swift */,
+				F61F2DB12122BA3C00999601 /* Info.plist */,
+			);
+			path = GlucoPredMobileTests;
+			sourceTree = "<group>";
+		};
+		F6CAEED720EE0FB0001DFBF0 = {
+			isa = PBXGroup;
+			children = (
+				F600620A20FCBB94000A7313 /* Charts.xcodeproj */,
+				F6CAEEE220EE0FB0001DFBF0 /* GlucoPredMobile */,
+				F6CAEEF720EE0FB5001DFBF0 /* GlucoPredMobileTests */,
+				F6CAEF0220EE0FB5001DFBF0 /* GlucoPredMobileUITests */,
+				F61F2DAE2122BA3C00999601 /* GlucoPredMobileTests */,
+				F6CAEEE120EE0FB0001DFBF0 /* Products */,
+				F600621320FCBD31000A7313 /* Frameworks */,
+				6F1C58F976BF38D2FB86633D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F6CAEEE120EE0FB0001DFBF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAEEE020EE0FB0001DFBF0 /* GlucoPredMobile.app */,
+				F6CAEEFF20EE0FB5001DFBF0 /* GlucoPredMobileUITests.xctest */,
+				F61F2DAD2122BA3C00999601 /* GlucoPredMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6CAEEE220EE0FB0001DFBF0 /* GlucoPredMobile */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBE4BF211C3CD1003A6DB3 /* Estimator */,
+				F601409621074ABB00AD95E7 /* Extensions */,
+				F60062A9210607F7000A7313 /* Views */,
+				F600628421008A1C000A7313 /* Data */,
+				F6CAEF3720EE3E99001DFBF0 /* Simulator */,
+				F6CAEEE320EE0FB0001DFBF0 /* AppDelegate.swift */,
+				F6CAEEE720EE0FB0001DFBF0 /* Main.storyboard */,
+				F6CAEEEA20EE0FB5001DFBF0 /* Assets.xcassets */,
+				F6CAEEEC20EE0FB5001DFBF0 /* LaunchScreen.storyboard */,
+				F6CAEEEF20EE0FB5001DFBF0 /* Info.plist */,
+				F6CAEF3020EE1B4B001DFBF0 /* ViewControllers */,
+				F6E013DA20EF7AC700CDE962 /* ChartXAxisFormatter.swift */,
+			);
+			path = GlucoPredMobile;
+			sourceTree = "<group>";
+		};
+		F6CAEEF720EE0FB5001DFBF0 /* GlucoPredMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAEEF820EE0FB5001DFBF0 /* GlucoPredMobileTests.swift */,
+				F6CAEEFA20EE0FB5001DFBF0 /* Info.plist */,
+			);
+			path = GlucoPredMobileTests;
+			sourceTree = "<group>";
+		};
+		F6CAEF0220EE0FB5001DFBF0 /* GlucoPredMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAEF0320EE0FB5001DFBF0 /* GlucoPredMobileUITests.swift */,
+				F6CAEF0520EE0FB5001DFBF0 /* Info.plist */,
+			);
+			path = GlucoPredMobileUITests;
+			sourceTree = "<group>";
+		};
+		F6CAEF3020EE1B4B001DFBF0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6E013E020EF980400CDE962 /* MainMenuViewController.swift */,
+				F6CAEF3320EE2F7F001DFBF0 /* GraphViewController.swift */,
+				F60062A52105C177000A7313 /* SavedProfilesViewController.swift */,
+				F60062A72105C5BB000A7313 /* ShowSavedProfileViewController.swift */,
+				F6E013E320EFA2DF00CDE962 /* ProfileSettingsViewController.swift */,
+				F6CBE4A8211994EA003A6DB3 /* ParameterSettingsViewController.swift */,
+				F600625D20FF3267000A7313 /* AddMealViewController.swift */,
+				F60062922100D241000A7313 /* AddInsViewController.swift */,
+				F600629D2101FAFD000A7313 /* ChooseMealViewController.swift */,
+				F600629F2101FB11000A7313 /* ChooseInsViewController.swift */,
+				F601409921075EED00AD95E7 /* ChooseExerciseViewControllerTableViewController.swift */,
+				F6CBE4BA2119C33A003A6DB3 /* SavedMealsViewController.swift */,
+				F6CBE4BC2119C369003A6DB3 /* SavedInsDosesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F6CAEF3720EE3E99001DFBF0 /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAEF8020EE43BC001DFBF0 /* Constants.swift */,
+				F6CAEF7F20EE43BB001DFBF0 /* ParamInit.swift */,
+				F6CAEF6E20EE4380001DFBF0 /* Math */,
+				F6CAEF6520EE4359001DFBF0 /* GlucoPred */,
+				F6CAEF5420EE4334001DFBF0 /* Data */,
+			);
+			path = Simulator;
+			sourceTree = "<group>";
+		};
+		F6CAEF5420EE4334001DFBF0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAEF5C20EE4351001DFBF0 /* InitialState.swift */,
+				F6CAEF5820EE4351001DFBF0 /* MMExperiment.swift */,
+				F6CAEF5920EE4351001DFBF0 /* MMParameter.swift */,
+				F6CAEF5520EE4351001DFBF0 /* MMParameterSet.swift */,
+				F6CAEF5B20EE4351001DFBF0 /* Person.swift */,
+				F6CAEF5720EE4351001DFBF0 /* StateVariable.swift */,
+				F6CAEF5A20EE4351001DFBF0 /* TimeMealVar.swift */,
+				F6CAEF5620EE4351001DFBF0 /* TimeVar.swift */,
+				F6721BF82110742800C5F378 /* SimulationResult.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F6CAEF6520EE4359001DFBF0 /* GlucoPred */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAEF6720EE4377001DFBF0 /* DynamicMetabolismModel.swift */,
+				F6CAEF6820EE4377001DFBF0 /* DynamicSystem.swift */,
+				F6CAEF6620EE4377001DFBF0 /* GlucoseModel.swift */,
+				F6CAEF6920EE4377001DFBF0 /* MMSimulator.swift */,
+				F60140A721099C4500AD95E7 /* ParameterComputer.swift */,
+			);
+			path = GlucoPred;
+			sourceTree = "<group>";
+		};
+		F6CAEF6E20EE4380001DFBF0 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAEF7220EE439B001DFBF0 /* DoubleVector.swift */,
+				F6CAEF7520EE439B001DFBF0 /* IntVector.swift */,
+				F6CAEF7320EE439B001DFBF0 /* LUDecomposistion.swift */,
+				F6CAEF6F20EE439A001DFBF0 /* MathUtils.swift */,
+				F6CAEF7620EE439B001DFBF0 /* Matrix.swift */,
+				F6CAEF7020EE439A001DFBF0 /* QRDecomposistion.swift */,
+				F6CAEF7120EE439A001DFBF0 /* RecursiveLSestimation.swift */,
+				F6CAEF7420EE439B001DFBF0 /* StringVector.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		F6CBE4BF211C3CD1003A6DB3 /* Estimator */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBE4C0211C40C0003A6DB3 /* ParameterEstimator.swift */,
+				F6CBE4C2211C4B72003A6DB3 /* SimplexOpt.swift */,
+			);
+			path = Estimator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F61F2DAC2122BA3C00999601 /* GlucoPredMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61F2DB42122BA3C00999601 /* Build configuration list for PBXNativeTarget "GlucoPredMobileTests" */;
+			buildPhases = (
+				F61F2DA92122BA3C00999601 /* Sources */,
+				F61F2DAA2122BA3C00999601 /* Frameworks */,
+				F61F2DAB2122BA3C00999601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61F2DB32122BA3C00999601 /* PBXTargetDependency */,
+			);
+			name = GlucoPredMobileTests;
+			productName = GlucoPredMobileTests;
+			productReference = F61F2DAD2122BA3C00999601 /* GlucoPredMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6CAEEDF20EE0FB0001DFBF0 /* GlucoPredMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CAEF0820EE0FB5001DFBF0 /* Build configuration list for PBXNativeTarget "GlucoPredMobile" */;
+			buildPhases = (
+				4D2BABC85DC9CAD8118B6188 /* [CP] Check Pods Manifest.lock */,
+				F6CAEEDC20EE0FB0001DFBF0 /* Sources */,
+				F6CAEEDD20EE0FB0001DFBF0 /* Frameworks */,
+				F6CAEEDE20EE0FB0001DFBF0 /* Resources */,
+				F6CAEF2F20EE1ABE001DFBF0 /* Embed Frameworks */,
+				320FFEE84797F42A8A49CBB7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F60140AC2109C69500AD95E7 /* PBXTargetDependency */,
+			);
+			name = GlucoPredMobile;
+			productName = GlucoPredMobile;
+			productReference = F6CAEEE020EE0FB0001DFBF0 /* GlucoPredMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6CAEEFE20EE0FB5001DFBF0 /* GlucoPredMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CAEF0E20EE0FB5001DFBF0 /* Build configuration list for PBXNativeTarget "GlucoPredMobileUITests" */;
+			buildPhases = (
+				44CC228773AECACF28868211 /* [CP] Check Pods Manifest.lock */,
+				F6CAEEFB20EE0FB5001DFBF0 /* Sources */,
+				F6CAEEFC20EE0FB5001DFBF0 /* Frameworks */,
+				F6CAEEFD20EE0FB5001DFBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CAEF0120EE0FB5001DFBF0 /* PBXTargetDependency */,
+			);
+			name = GlucoPredMobileUITests;
+			productName = GlucoPredMobileUITests;
+			productReference = F6CAEEFF20EE0FB5001DFBF0 /* GlucoPredMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6CAEED820EE0FB0001DFBF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Prediktor Medical";
+				TargetAttributes = {
+					F61F2DAC2122BA3C00999601 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F6CAEEDF20EE0FB0001DFBF0;
+					};
+					F6CAEEDF20EE0FB0001DFBF0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F6CAEEFE20EE0FB5001DFBF0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F6CAEEDF20EE0FB0001DFBF0;
+					};
+				};
+			};
+			buildConfigurationList = F6CAEEDB20EE0FB0001DFBF0 /* Build configuration list for PBXProject "GlucoPredMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6CAEED720EE0FB0001DFBF0;
+			productRefGroup = F6CAEEE120EE0FB0001DFBF0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F600620B20FCBB94000A7313 /* Products */;
+					ProjectRef = F600620A20FCBB94000A7313 /* Charts.xcodeproj */;
+				},
+				{
+					ProductGroup = F600626821007CE3000A7313 /* Products */;
+					ProjectRef = F600626721007CE3000A7313 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F6CAEEDF20EE0FB0001DFBF0 /* GlucoPredMobile */,
+				F6CAEEFE20EE0FB5001DFBF0 /* GlucoPredMobileUITests */,
+				F61F2DAC2122BA3C00999601 /* GlucoPredMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F600621020FCBB95000A7313 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = F600620F20FCBB95000A7313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F600621220FCBB95000A7313 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = F600621120FCBB95000A7313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F600627221007CE3000A7313 /* Pods_GlucoPredMobile.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_GlucoPredMobile.framework;
+			remoteRef = F600627121007CE3000A7313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F600627421007CE3000A7313 /* Pods_GlucoPredMobileTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_GlucoPredMobileTests.framework;
+			remoteRef = F600627321007CE3000A7313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F600627621007CE3000A7313 /* Pods_GlucoPredMobileUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_GlucoPredMobileUITests.framework;
+			remoteRef = F600627521007CE3000A7313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F600627821007CE3000A7313 /* Realm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Realm.framework;
+			remoteRef = F600627721007CE3000A7313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F600627A21007CE3000A7313 /* RealmSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RealmSwift.framework;
+			remoteRef = F600627921007CE3000A7313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F61F2DAB2122BA3C00999601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAEEDE20EE0FB0001DFBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CAEEEE20EE0FB5001DFBF0 /* LaunchScreen.storyboard in Resources */,
+				F601409521072B1600AD95E7 /* TimeVarTableViewCell.xib in Resources */,
+				F6CAEEEB20EE0FB5001DFBF0 /* Assets.xcassets in Resources */,
+				F6CAEEE920EE0FB0001DFBF0 /* Main.storyboard in Resources */,
+				F601409E21085AB900AD95E7 /* TimeExVarTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAEEFD20EE0FB5001DFBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		320FFEE84797F42A8A49CBB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GlucoPredMobile/Pods-GlucoPredMobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlucoPredMobile/Pods-GlucoPredMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44CC228773AECACF28868211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlucoPredMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D2BABC85DC9CAD8118B6188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlucoPredMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F61F2DA92122BA3C00999601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61F2DB02122BA3C00999601 /* GlucoPredMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAEEDC20EE0FB0001DFBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67DAD4C2122C468009940CF /* SimplexOpt.swift in Sources */,
+				F6721BFD2111A2EE00C5F378 /* PersistentActivityId.swift in Sources */,
+				F6CBE4A9211994EA003A6DB3 /* ParameterSettingsViewController.swift in Sources */,
+				F6CAEF8220EE43BC001DFBF0 /* Constants.swift in Sources */,
+				F6E013E420EFA2DF00CDE962 /* ProfileSettingsViewController.swift in Sources */,
+				F6CAEF7920EE439B001DFBF0 /* RecursiveLSestimation.swift in Sources */,
+				F6CAEF6320EE4352001DFBF0 /* Person.swift in Sources */,
+				F6721BFB21108FF600C5F378 /* PersistentTimeExVar.swift in Sources */,
+				F6CAEF7C20EE439B001DFBF0 /* StringVector.swift in Sources */,
+				F60062AB21060826000A7313 /* TimeVarTableViewCell.swift in Sources */,
+				F60062A42105BC82000A7313 /* PersistentSimResult.swift in Sources */,
+				F6CAEF6220EE4352001DFBF0 /* TimeMealVar.swift in Sources */,
+				F6CBE4BD2119C369003A6DB3 /* SavedInsDosesViewController.swift in Sources */,
+				F6CBE4B92119C07A003A6DB3 /* SavedActivitiesViewController.swift in Sources */,
+				F6CAEF7D20EE439B001DFBF0 /* IntVector.swift in Sources */,
+				F6CAEF6D20EE4377001DFBF0 /* MMSimulator.swift in Sources */,
+				F6CBE4BB2119C33A003A6DB3 /* SavedMealsViewController.swift in Sources */,
+				F6CAEF6C20EE4377001DFBF0 /* DynamicSystem.swift in Sources */,
+				F6CAEF3420EE2F7F001DFBF0 /* GraphViewController.swift in Sources */,
+				F600628621008A72000A7313 /* PersistentTimeMealVar.swift in Sources */,
+				F6CAEF7720EE439B001DFBF0 /* MathUtils.swift in Sources */,
+				F601409A21075EED00AD95E7 /* ChooseExerciseViewControllerTableViewController.swift in Sources */,
+				F6CAEF6A20EE4377001DFBF0 /* GlucoseModel.swift in Sources */,
+				F60140AE2109DBDC00AD95E7 /* String+doubleValueDecimalSeparator.swift in Sources */,
+				F60140B1210A0C2F00AD95E7 /* UIView+pinEdges.swift in Sources */,
+				F6CAEF7A20EE439B001DFBF0 /* DoubleVector.swift in Sources */,
+				F6CAEF5E20EE4352001DFBF0 /* TimeVar.swift in Sources */,
+				F601409821074AE200AD95E7 /* Date+getTimeFormatted.swift in Sources */,
+				F6CBE4C1211C40C0003A6DB3 /* ParameterEstimator.swift in Sources */,
+				F60140A221085F8C00AD95E7 /* TimeExVar.swift in Sources */,
+				F6CAEF6020EE4352001DFBF0 /* MMExperiment.swift in Sources */,
+				F60062A62105C177000A7313 /* SavedProfilesViewController.swift in Sources */,
+				F6E013DB20EF7AC700CDE962 /* ChartXAxisFormatter.swift in Sources */,
+				F6CAEF7E20EE439B001DFBF0 /* Matrix.swift in Sources */,
+				F60140A62108673A00AD95E7 /* TimeExVarTableViewCell.swift in Sources */,
+				F6CAEF8120EE43BC001DFBF0 /* ParamInit.swift in Sources */,
+				F6721BF92110742800C5F378 /* SimulationResult.swift in Sources */,
+				F60140A821099C4500AD95E7 /* ParameterComputer.swift in Sources */,
+				F6CBE4B32119A73F003A6DB3 /* PersistentParameter.swift in Sources */,
+				F600629E2101FAFD000A7313 /* ChooseMealViewController.swift in Sources */,
+				F6721C0121133F0700C5F378 /* UIViewController+defaultAlert.swift in Sources */,
+				F6CAEF5D20EE4352001DFBF0 /* MMParameterSet.swift in Sources */,
+				F600625E20FF3267000A7313 /* AddMealViewController.swift in Sources */,
+				F6CAEF6B20EE4377001DFBF0 /* DynamicMetabolismModel.swift in Sources */,
+				F6CAEEE420EE0FB0001DFBF0 /* AppDelegate.swift in Sources */,
+				F6CAEF5F20EE4352001DFBF0 /* StateVariable.swift in Sources */,
+				F6CAEF6420EE4352001DFBF0 /* InitialState.swift in Sources */,
+				F600628A2100C47D000A7313 /* PersistentTimeVar.swift in Sources */,
+				F6E013E120EF980400CDE962 /* MainMenuViewController.swift in Sources */,
+				F6CAEF6120EE4352001DFBF0 /* MMParameter.swift in Sources */,
+				F60062932100D241000A7313 /* AddInsViewController.swift in Sources */,
+				F6CAEF7B20EE439B001DFBF0 /* LUDecomposistion.swift in Sources */,
+				F60062A02101FB11000A7313 /* ChooseInsViewController.swift in Sources */,
+				F60062A82105C5BB000A7313 /* ShowSavedProfileViewController.swift in Sources */,
+				F62D2FAC211848E00045EB09 /* LineChartData+extensions.swift in Sources */,
+				F6CAEF7820EE439B001DFBF0 /* QRDecomposistion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAEEFB20EE0FB5001DFBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CAEF0420EE0FB5001DFBF0 /* GlucoPredMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F60140AC2109C69500AD95E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = F60140AB2109C69500AD95E7 /* PBXContainerItemProxy */;
+		};
+		F61F2DB32122BA3C00999601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CAEEDF20EE0FB0001DFBF0 /* GlucoPredMobile */;
+			targetProxy = F61F2DB22122BA3C00999601 /* PBXContainerItemProxy */;
+		};
+		F6CAEF0120EE0FB5001DFBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CAEEDF20EE0FB0001DFBF0 /* GlucoPredMobile */;
+			targetProxy = F6CAEF0020EE0FB5001DFBF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6CAEEE720EE0FB0001DFBF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CAEEE820EE0FB0001DFBF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6CAEEEC20EE0FB5001DFBF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CAEEED20EE0FB5001DFBF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F61F2DB52122BA3C00999601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlucoPredMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrediktorMedical.GlucoPredMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoPredMobile.app/GlucoPredMobile";
+			};
+			name = Debug;
+		};
+		F61F2DB62122BA3C00999601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlucoPredMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrediktorMedical.GlucoPredMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoPredMobile.app/GlucoPredMobile";
+			};
+			name = Release;
+		};
+		F6CAEF0620EE0FB5001DFBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6CAEF0720EE0FB5001DFBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6CAEF0920EE0FB5001DFBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4537EE053BD2C5D02ADEFD12 /* Pods-GlucoPredMobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5BY6647UCT;
+				INFOPLIST_FILE = GlucoPredMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrediktorMedical.GlucoPredMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6CAEF0A20EE0FB5001DFBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4328773068057FDFD829CED9 /* Pods-GlucoPredMobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5BY6647UCT;
+				INFOPLIST_FILE = GlucoPredMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrediktorMedical.GlucoPredMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6CAEF0F20EE0FB5001DFBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA55AC04785DD6FFA457FFE /* Pods-GlucoPredMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH499K4N56;
+				INFOPLIST_FILE = GlucoPredMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrediktorMedical.GlucoPredMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlucoPredMobile;
+			};
+			name = Debug;
+		};
+		F6CAEF1020EE0FB5001DFBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51AADD6177CD8FC9C1E8833 /* Pods-GlucoPredMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH499K4N56;
+				INFOPLIST_FILE = GlucoPredMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrediktorMedical.GlucoPredMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlucoPredMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F61F2DB42122BA3C00999601 /* Build configuration list for PBXNativeTarget "GlucoPredMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61F2DB52122BA3C00999601 /* Debug */,
+				F61F2DB62122BA3C00999601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CAEEDB20EE0FB0001DFBF0 /* Build configuration list for PBXProject "GlucoPredMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CAEF0620EE0FB5001DFBF0 /* Debug */,
+				F6CAEF0720EE0FB5001DFBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CAEF0820EE0FB5001DFBF0 /* Build configuration list for PBXNativeTarget "GlucoPredMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CAEF0920EE0FB5001DFBF0 /* Debug */,
+				F6CAEF0A20EE0FB5001DFBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CAEF0E20EE0FB5001DFBF0 /* Build configuration list for PBXNativeTarget "GlucoPredMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CAEF0F20EE0FB5001DFBF0 /* Debug */,
+				F6CAEF1020EE0FB5001DFBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6CAEED820EE0FB0001DFBF0 /* Project object */;
+}

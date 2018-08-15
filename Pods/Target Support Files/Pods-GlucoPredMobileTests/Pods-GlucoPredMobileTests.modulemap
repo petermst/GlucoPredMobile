@@ -1,0 +1,6 @@
+framework module Pods_GlucoPredMobileTests {
+  umbrella header "Pods-GlucoPredMobileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

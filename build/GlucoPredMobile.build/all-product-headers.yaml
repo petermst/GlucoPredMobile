@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/peterstige/Documents/GlucoPredMobile/build/Release-iphoneos/GlucoPredMobile.app/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GlucoPredMobile-Swift.h",
+          'external-contents': "/Users/peterstige/Documents/GlucoPredMobile/build/Release-iphoneos/GlucoPredMobile.app/Headers/GlucoPredMobile-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peterstige/Documents/GlucoPredMobile/build/Release-iphoneos/GlucoPredMobile.app/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peterstige/Documents/GlucoPredMobile/build/GlucoPredMobile.build/Release-iphoneos/GlucoPredMobile.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
